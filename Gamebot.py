@@ -120,53 +120,6 @@ while unviable:
     if game_round >4:
         unviable = False
 
-    # cv2.waitKey(0)
-    # cv2.destroyAllWindows()
-
-
-# # location = "C:/Users/User/PycharmProjects/GameBot/cocloot.jpg"
-# # location = "C:/Users/User/PycharmProjects/GameBot/coctest2.jpg"
-# location = "C:/Users/User/PycharmProjects/GameBot/Screenshot_2.jpg"
-#
-# img = cv2.imread(location)
-# img = get_grayscale(img)
-# img = get_blurred(img)
-#
-# text = pytesseract.image_to_string(img)
-# print("Text: ", text)
-#
-# cv2.imshow('Image', img)
-# cv2.waitKey(0)
-# cv2.destroyAllWindows()
-#
-
-
-
-# img = pyautogui.screenshot(region=(0, 0, 300, 300))
-# grag = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-# # img.save("TestShot.jpg")
-# filename = 'test.png'
-# cv2.imwrite(filename, grag)
-#
-# # SCREEN_SIZE = (2560, 1080)
-# #
-# # fourcc = cv2.VideoWriter_fourcc(*"XVID")
-# # # create the video write object
-# # out = cv2.VideoWriter("output.avi", fourcc, 20.0, (SCREEN_SIZE))
-# #
-# #
-# # for i in range(50):
-# #     # make a screenshot
-# #     img = pyautogui.screenshot(region=(0, 0, 300, 300))
-# #     frame = np.array(img)
-# #     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-# #     # write the frame
-# #     out.write(frame)
-# #     # show the frame
-# #     cv2.imshow("screenshot", frame)
-# #
-# # cv2.destroyAllWindows()
-# # out.release()
 
 """
 Steps
@@ -181,9 +134,6 @@ Steps
 # options = ['easeInOutQuad']
 # currentMouseX, currentMouseY = pyautogui.position()
 # print(currentMouseX, currentMouseY)
-
-
-
 
 # pyautogui.moveTo(4105, 873, duration=0.51, tween=pyautogui.easeInOutQuad)
 # pyautogui.moveTo(2657, 302)
